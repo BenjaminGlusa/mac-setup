@@ -18,6 +18,6 @@ sudo xcode-select --install
 ### Start automatic installation
 
 ```sh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/jaedle/mac-setup/master/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/BenjaminGlusa/mac-setup/master/install.sh)"
 # wait for password prompt and enjoy the show..
 ```

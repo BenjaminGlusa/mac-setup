@@ -36,12 +36,14 @@ install_brew_packages() {
         ssh-copy-id \
         tree \
         watch \
-        wget
+        wget \
+        youtube-dl
         
     brew install vim --override-system-vi
     
     brew cask install \
         app-cleaner \
+        caskroom/versions/firefoxdeveloperedition \
         cyberduck \
         docker \
         enpass \
@@ -86,6 +88,7 @@ setup_dock() {
     dockutil --remove all
 
     dockutil --add "/Applications/Google Chrome.app"
+    dockutil --add "/Applications/Firefox Developer Edition.app"
     dockutil --add "/Applications/Mail.app"
     dockutil --add "/Applications/Calendar.app"
     dockutil --add "/Applications/Notes.app"
@@ -93,6 +96,7 @@ setup_dock() {
     dockutil --add "/Applications/iTunes.app"
     dockutil --add "/Applications/IntelliJ IDEA.app"
     dockutil --add "/Applications/Visual Studio Code.app"
+    dockutil --add "/Applications/Postman.app"
     dockutil --add "/Applications/GitHub Desktop.app"
     dockutil --add "/Applications/iTerm.app"
     dockutil --add "/Applications/Slack.app"
