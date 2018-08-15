@@ -49,6 +49,7 @@ install_brew_packages() {
         enpass \
         etcher \
         flowsync \
+        google-backup-and-sync \
         google-chrome \
         github \
         gitkraken \
